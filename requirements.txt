@@ -1,4 +1,13 @@
 asgiref==3.2.10
+certifi==2020.6.20
+colorzero==1.1
 Django==3.1.1
+gpiozero==1.5.1
+influxdb-client==1.10.0
+python-dateutil==2.8.1
 pytz==2020.1
+RPi.GPIO==0.7.0
+Rx==3.1.1
+six==1.15.0
 sqlparse==0.3.1
+urllib3==1.25.10
