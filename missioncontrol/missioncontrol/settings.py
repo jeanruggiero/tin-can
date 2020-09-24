@@ -25,7 +25,7 @@ SECRET_KEY = 'e+83lg2gy78fzvlg@g%&@j*uoyio)v_gno8xf(v==uxi8*-f80'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['jeans-pi.local', '0.0.0.0']
 
 
 # Application definition
