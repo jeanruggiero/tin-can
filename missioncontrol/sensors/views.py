@@ -32,6 +32,6 @@ def home(request):
                                         },
                                 mode="lines", name='pm25standard'))
 
-    figure.update_layout(title="PM2.5 Particle Count", xaxis={'title': 'time'}, yaxis={'title': 'x2'})
+    figure.update_layout(title="PM2.5 Particle Count", xaxis={'title': 'time'}, yaxis={'title': 'PM2.5 count'})
 
     return render(request, 'sensors/home.html', {'graph': figure.to_html()})
