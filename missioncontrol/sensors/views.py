@@ -24,8 +24,8 @@ def home(request):
 
     figure = go.Figure()
 
-    figure.add_trace(go.Scatter(x=[record.get_value() for record in table],
-                                y=[record.get_time() for record in table],
+    figure.add_trace(go.Scatter(x=[record.get_time() for record in table],
+                                y=[record.get_value() for record in table],
                                 marker={'color': 'red',
                                         'symbol': 104,
                                         'size': 10
